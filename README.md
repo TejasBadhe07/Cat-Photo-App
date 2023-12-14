@@ -1,4 +1,3 @@
-# Cat-Photo-App
 # Cat-Photo-App Readme
 
 Welcome to the Cat-Photo-App documentation! This guide will help you understand the basics of HTML and provide instructions on building your own cat photo app.
@@ -48,9 +47,43 @@ HTML (Hypertext Markup Language) is the standard language for creating web pages
     - Define unordered lists using the `<ul>` tag.
     - List items within `<ul>` are created using the `<li>` element.
 
+12. **Figure Element (`<figure>`) and Figcaption (`<figcaption>`):**
+    - The `<figure>` tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+    - Use `<figcaption>` to add a caption for the `<figure>` element.
+    - Example: `<figure><img src="cat.jpg" alt="A cute cat"><figcaption>A cute cat</figcaption></figure>`.
+
+13. **Emphasis Element (`<em>`):**
+    - Emphasize text within the `<figcaption>` element using `<em>`.
+    - Example: `<figcaption><em>Love</em> this cat!</figcaption>`.
+
+14. **Ordered List (`<ol>`) and Strong Element (`<strong>`):**
+    - Use `<ol>` for ordered lists.
+    - The `<strong>` element indicates text of strong importance or urgency.
+
+15. **Form Elements (`<form>`, `<input>`, `<button>`):**
+    - The `<form>` element is used to create a web form.
+    - Input elements collect data; they are self-closing and have various types.
+    - Example: `<form action="/submit-url"><input type="text" name="email" placeholder="Email address" required><button>Submit</button></form>`.
+
+16. **Radio Buttons (`<input type="radio">`):**
+    - Use radio buttons for questions with one answer out of multiple options.
+    - Example: `<label><input type="radio" name="answer" value="cat"> Cat</label>`.
+
+17. **Fieldset (`<fieldset>`) and Legend (`<legend>`):**
+    - `<fieldset>` groups related inputs and labels together.
+    - `<legend>` provides a caption for the content in the `<fieldset>`.
+    - Example: `<fieldset><legend>Choose Pet:</legend><label><input type="radio" name="pet" value="cat"> Cat</label><label><input type="radio" name="pet" value="dog"> Dog</label></fieldset>`.
+
+18. **Checkboxes (`<input type="checkbox">`):**
+    - Use checkboxes for questions with multiple answers.
+    - Example: `<label><input type="checkbox" name="food" value="tacos"> Tacos</label>`.
+
+19. **Title Element (`<title>`):**
+    - The `<title>` element determines what browsers show in the title bar or tab for the page.
+    - Example: `<title>Cat-Photo-App</title>`.
+
 ## Getting Started
 
 Before adding new content, make use of the `<section>` element to organize your cat photos. Follow the provided guidelines for headings, paragraphs, images, links, and lists.
 
 Feel free to explore and enhance your cat photo app by incorporating these HTML basics. Happy coding! 🐾📷
-

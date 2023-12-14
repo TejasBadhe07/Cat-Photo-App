@@ -23,10 +23,43 @@
                 <li>laser pointers</li>
                 <li>lasagna</li>
             </ul>
-            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt='A slice of lasagna on a plate.'>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt='A slice of lasagna on a plate.'>
+                <figcaption>Cats <em>love</em> lasagna.</figcaption>
+            </figure>
+            <h3>Top 3 things cat hates:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
         </section>
-  
+
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input id="indoor" value="indoor" name="indoor-outdoor" type="radio" checked> Indoor</label>
+                <label><input id="outdoor" value="outdoor" name="indoor-outdoor" type="radio"> Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" value="loving" type="checkbox" name="personality" checked><label for="loving">Loving</label>
+                <input id="lazy" value="lazy" type="checkbox" name="personality"><label for="lazy">Lazy</label>
+                <input id="energetic" value="energetic" type="checkbox" name="personality"><label for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="catphotourl" placeholder="Cat Photo URL" required>
+            <button type="Submit">Submit</button>
+        </section>
     </main>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
 
 </body>
 </html>
