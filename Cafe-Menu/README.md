@@ -1,36 +1,65 @@
-# Basic CSS by building Cafe Menu
-## CSS by designing a menu page for a cafe webpage.
+# Basic CSS: Cafe Menu Design
 
-CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.
-The title is one of several elements that provide extra information not visible on the web page, but it is useful for search engines or how the page gets displayed.
-The div element is used mainly for design layout purposes unlike the other content elements 
-To apply the class's styling to the div element, remove the id attribute and add a class attribute to the div element's opening tag. 
-article elements commonly contain multiple elements that have related information.
-You can use an hr element to display a divider between sections of different content.
+This project focuses on using CSS to create a stylish menu page for a cafe website. CSS (Cascading Style Sheets) is essential for controlling the presentation and layout of HTML elements.
 
-You can add style to an element by specifying it in the style element and setting a property for it like this:
-You can change the font-family of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+## CSS Basics
 
+- **Role of CSS:** Instructs the browser on how to display webpage elements, defining colors, fonts, and sizes.
+
+- **Page Title:** Provides extra information for search engines and page display.
+
+- **Div Element:** Used for design layout purposes.
+
+- **Styling with Classes:** Apply styling using classes by adding a class attribute to the div element.
+
+- **Article Elements:** Contain multiple items with related information for structured content.
+
+- **Divider Usage:** Employ the hr element to create dividers between content sections.
+
+## Applying Styles
+
+## Applying Styles
+
+Use the following syntax to apply styles:
+
+```css
 element {
- property: value;
-}
-
-You can add the same group of styles to many elements by creating a list of selectors. Each selector is separated with commas like this:
-
-selector1, selector2 {
   property: value;
 }
 
-Comments in CSS look like this:
 
-/* comment here */
+For multiple elements, create a list of selectors:
 
-A class selector is defined by a name with a dot directly in front of it, like this:
+css
+Copy code
+selector1, selector2 {
+  property: value;
+}
+CSS Comments
+Use this syntax for comments:
 
+css
+Copy code
+/* Comment Here */
+Class Selectors
+Define class selectors with a dot preceding the name:
+
+css
+Copy code
 .class-name {
   styles
 }
+External Style Sheets
+For better organization, place styles in a separate file and link to it.
 
-since there will be many more styles, it's best to put all the styles in a separate file and link to it.
-For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
-if you want to center the #menu horizontally. You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element.
+Responsive Design
+Ensure consistent styling on both desktop and mobile with a meta element.
+
+Centering Elements
+To center an element horizontally, set margin-left and margin-right properties to auto.
+
+You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.
+
+You change properties of a link when the mouse hovers over them by using a pseudo-selector that looks like a:hover { propertyName: propertyValue; }.
+
+You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
