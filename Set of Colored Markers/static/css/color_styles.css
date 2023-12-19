@@ -1,12 +1,17 @@
 h1 {
     text-align: center;
+    background-color: rgb(0, 255, 255);
 }
 
 h2 {
     text-align: center;
+    margin: auto;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(175, 255, 0);
 }
 
-.container {
+.container_1 {
     background-color: rgb(255, 255, 255);
     padding: 10px 0;
 }
@@ -15,6 +20,7 @@ h2 {
     margin: 10px auto;
     height: 15px;
     width: 200px;
+    text-align: center;
 }
 
 
@@ -24,11 +30,11 @@ h2 {
 }
 
 .two {
-    background-color: rgb(0, 255, 0);
+    background-color: #00FF00;
 }
 
 .three {
-    background-color: rgb(0, 0, 255);
+    background-color: hsl(240, 100%, 50%);
 }
 
 /* SECONDARY COLORS */
@@ -57,4 +63,16 @@ h2 {
 
 .nine {
     background-color: rgb(127, 0, 255);
+}
+
+.ten {
+    background-color: rgb(0, 127, 255);
+}
+
+.eleven {
+    background-color: rgb(255, 0, 127);
+}
+
+.twelve {
+    background-color: rgb(0, 0, 0);
 }
