@@ -76,3 +76,62 @@ The linear-gradient function is very flexible -- here is the basic syntax you'll
 linear-gradient(gradientDirection, color1, color2, ...);
 gradientDirection is the direction of the line used for the transition. color1 and color2 are color arguments, which are the colors that will be used in the transition itself. These can be any type of color, including color keywords, hex, rgb, or hsl.
 
+As you can see, the linear-gradient function produced a smooth red-green gradient. While the linear-gradient function needs a minimum of two color arguments to work, it can accept many color arguments.
+
+Color-stops allow you to fine-tune where colors are placed along the gradient line. They are a length unit like px or percentages that follow a color in the linear-gradient function.
+For example, in this red-black gradient, the transition from red to black takes place at the 90% point along the gradient line, so red takes up most of the available space:
+
+linear-gradient(90deg, red 90%, black);
+
+Now that the color-stops are set, you'll apply different shades of red to each color argument in the linear-gradient function. The shades on the top and bottom edges of the marker will be darker, while the one in the middle will be lighter, as if there's a light above it.
+
+Even without the color-stops, you might have noticed that the colors for the green marker transition at the same points as the red marker. The first color is at the start (0%), the second is in the middle (50%), and the last is at the end (100%) of the gradient line.
+
+The linear-gradient function automatically calculates these values for you, and places colors evenly along the gradient line by default.
+If no gradientDirection argument is provided to the linear-gradient function, it arranges colors from top to bottom, or along a 180 degree line, by default.
+
+Opacity describes how opaque, or non-transparent, something is. For example, a solid wall is opaque, and no light can pass through. But a drinking glass is much more transparent, and you can see through the glass to the other side.
+
+With the CSS opacity property, you can control how opaque or transparent an element is. With the value 0, or 0%, the element will be completely transparent, and at 1.0, or 100%, the element will be completely opaque like it is by default.
+Another way to set the opacity for an element is with the alpha channel. Similar to the opacity property, the alpha channel controls how transparent or opaque a color is.
+
+You're already familiar with using the rgb function to set colors. To add an alpha channel to an rgb color, use the rgba function instead.
+
+The rgba function works just like the rgb function, but takes one more number from 0 to 1.0 for the alpha channel:
+
+rgba(redValue, greenValue, blueValue, alphaValue);
+You can also use an alpha channel with hsl and hex colors.
+
+the default display property for div elements is block. So when two block elements are next to each other, they stack like actual blocks. For example, your marker elements are all stacked on top of each other.
+
+To position two div elements on the same line, set their display properties to inline-block.
+
+All HTML elements have borders, though they're usually set to none by default. With CSS, you can control all aspects of an element's border, and set the border on all sides, or just one side at a time. For a border to be visible, you need to set its width and style.
+Borders have several styles to choose from. You can make your border a solid line, but you can also use a dashed or dotted line if you prefer. Solid border lines are probably the most common.
+If no color is set, black is used by default.
+But to make your code more readable, it's better to set the border color explicitly.
+The border-left shorthand property lets you to set the left border's width, style, and color at the same time.
+
+Here is the syntax:
+
+border-left: width style color;
+
+The box-shadow property lets you apply one or more shadows around an element. Here is basic syntax:
+
+box-shadow: offsetX offsetY color;
+Here's how the offsetX and offsetY values work:
+
+both offsetX and offsetY accept number values in px and other CSS units
+a positive offsetX value moves the shadow right and a negative value moves it left
+a positive offsetY value moves the shadow down and a negative value moves it up
+if you want a value of zero (0) for any or both offsetX and offsetY, you don't need to add a unit. Every browser understands that zero means no change.
+The height and width of the shadow is determined by the height and width of the element it's applied to. You can also use an optional spreadRadius value to spread out the reach of the shadow.
+
+Notice that the edges of the shadow are sharp. This is because there is an optional blurRadius value for the box-shadow property:
+
+box-shadow: offsetX offsetY blurRadius color;
+If a blurRadius value isn't included, it defaults to 0 and produces sharp edges. The higher the value of blurRadius, the greater the blurring effect is.
+But what if you wanted to expand the shadow out further? You can do that with the optional spreadRadius value:
+
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+Like blurRadius, spreadRadius defaults to 0 if it isn't included.
