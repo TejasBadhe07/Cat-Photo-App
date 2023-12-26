@@ -25,3 +25,12 @@ Currently when someone submit the form, they can submit it without checking the 
 
 To solve this, you can provide context of what is needed by adding a legend element with text Account type (required) before the label elements within the second fieldset. Then add the checked attribute to the Personal input to ensure the form is submitted with the required data in it.
 Follow accessibility best practices by linking the input elements and the label elements in the second fieldset.
+Moving on to the final fieldset. What if you wanted to allow a user to upload a profile picture?
+
+Well, the input type file allows just that. Add a label with the text Upload a profile picture: , and nest an input accepting a file upload.
+Adding a dropdown to the form is easy with the select element. The select element is a container for a group of option elements, and the option element acts as a label for each dropdown option. Both elements require closing tags.
+
+Submitting the form with an option selected would not send a useful value to the server. As such, each option needs to be given a value attribute. Without which, the text content of the option will be submitted to the server.
+The textarea element acts like an input element of type text, but comes with the added benefit of being able to receive multi-line text, and an initial number of text rows and columns.
+
+Users will be able to register with a bio.
