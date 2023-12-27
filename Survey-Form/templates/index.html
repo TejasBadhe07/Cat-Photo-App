@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+
+        <!-- Fieldset 1: Name, Email, and Number -->
+        <fieldset>
+            <legend>Contact Information:</legend>
+            <label id="name-label">
+                Name: 
+                <input id="name" type="text" placeholder="Name" required/>
+            </label>
+
+            <label id="email-label">
+                Email: 
+                <input id="email" type="email" placeholder="Email" required/>
+            </label>
+
+            <label id="number-label">
+                Age: 
+                <input id="number" type="number" min="13" max="120" placeholder="Age"/>
+            </label>
+
+            <label for="dropdown">Which option best describes your current role?
+                <select id="dropdown">
+                    <option>Select Option </option>
+                    <option>Student</option>
+                    <option>Working Professional</option>
+                    <option>Freelancer</option>
+                    <option>Teacher</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <!-- Fieldset 2: Radio Buttons -->
+        <fieldset>
+            <legend>Would you recommend freeCodeCamp ?</legend>
+            <label>
+                <input type="radio" class="inline" value="Definitely" name="opinion" checked/> 
+                 Definitely              
+            </label>
+
+            <label>
+                <input type="radio" class="inline" value="Maybe" name="opinion" /> 
+                 Maybe              
+            </label>
+            
+            <label>                
+                <input type="radio" class="inline" value="Not Sure" name="opinion"/>   
+                Not Sure             
+            </label>
+        </fieldset>
+
+        <!-- Fieldset 3: Checkboxes -->
+        <fieldset>
+            <legend>What would you like to see improved ?</legend>
+            <label>
+                <input type="checkbox" class="inline" value="Definitely" name="definitely" />
+                Frontend
+            </label>
+            <label>
+                <input type="checkbox" class="inline" value="Probably" name="probably"/>
+                Backend
+            </label>
+            <label>
+                <input type="checkbox" class="inline" value="Probably" name="probably"/>
+                Fullstack
+            </label>
+            <label>
+                <input type="checkbox" class="inline" value="Probably" name="probably"/>
+                Other
+            </label>
+        </fieldset>
+
+        <!-- Fieldset 4: Textarea -->
+        <fieldset>
+            <legend>Any comments or suggestions ?</legend>
+            <label>
+                <textarea name="comments" id="comments" cols="30" rows="6" placeholder="Enter your comments here..."></textarea>
+            </label>
+        </fieldset>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>

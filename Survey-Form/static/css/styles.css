@@ -1,0 +1,62 @@
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+}
+
+p, legend {
+    font-size: large;
+}
+  
+body {
+    background-color: rgb(21, 197, 228);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+label {
+    display: block;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+fieldset {
+    padding: 1rem 0;
+    border: 3px solid #3b3b4f;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: green;
+    background-color: rgb(90, 248, 182);
+    min-width: 300px;
+}
+  
+  
+  
