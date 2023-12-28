@@ -64,3 +64,5 @@ Adjust the values for specific corners as needed:
 }
 ```
 Experiment with different values and combinations to achieve the desired softness in the painting's edges.
+
+![Rothko Painting](![Alt text](Rothko-Painting-Design.png))
