@@ -2,6 +2,8 @@
 
 Welcome to the Rothko-Painting project documentation! This guide will walk you through the CSS and Box Model techniques used to create Rothko-style rectangular art pieces.
 
+![Rothko Painting](![Alt text]Rothko-Painting-Design.png)
+
 ## Box Model Basics
 
 In the CSS box model, every HTML element is treated as a box with distinct areas:
@@ -65,4 +67,4 @@ Adjust the values for specific corners as needed:
 ```
 Experiment with different values and combinations to achieve the desired softness in the painting's edges.
 
-![Rothko Painting](![Alt text](Rothko-Painting-Design.png))
+
