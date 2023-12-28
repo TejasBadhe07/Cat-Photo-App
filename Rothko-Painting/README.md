@@ -25,3 +25,22 @@ Even a seemingly empty `<div>` is treated as a box with content. To demonstrate,
   width: 500px;
 }
 ```
+
+## Adding Rothko Effects
+
+To achieve a Rothko-esque effect, use the `filter` property to blur the painting within the `.canvas` element. For example, applying a 3px blur:
+
+```css
+.canvas {
+  filter: blur(3px);
+}
+
+
+## Softening Edges
+
+Address the issue of sharp edges by increasing the area and softening the edges of the .one element. Set its box-shadow to 0 0 3px 3px #efb762:
+
+```css
+.one {
+  box-shadow: 0 0 3px 3px #efb762;
+}
