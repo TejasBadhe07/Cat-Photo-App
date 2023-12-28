@@ -2,7 +2,8 @@
 
 Welcome to the Rothko-Painting project documentation! This guide will walk you through the CSS and Box Model techniques used to create Rothko-style rectangular art pieces.
 
-![Rothko Painting](![Rothko-Painting-Design.png])
+![Rothko Paintingt](Rothko-Painting-Design.png)
+
 
 ## Box Model Basics
 
