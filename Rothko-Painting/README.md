@@ -33,7 +33,7 @@ To achieve a Rothko-esque effect, use the `filter` property to blur the painting
 ```css
 .canvas {
   filter: blur(3px);
-}
+}```
 
 
 ## Softening Edges
@@ -43,4 +43,4 @@ Address the issue of sharp edges by increasing the area and softening the edges 
 ```css
 .one {
   box-shadow: 0 0 3px 3px #efb762;
-}
+}```
