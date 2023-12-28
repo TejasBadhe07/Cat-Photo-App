@@ -1,8 +1,8 @@
 # Registration Form
 
-You can use HTML forms to collect information from people who visit your webpage. In this project, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.
+You can use HTML forms to collect information from people who visit your webpage. In this project, I have build HTML forms by building a signup page. Learned how to control what types of data people can type into your form, and some new CSS tools for styling the page.
 
-![Rothko Paintingt](Registration-Form-Design.png)
+![Registration Form](Registration-Form-Design.png)
 
 
 ## Viewport Height (`vh`) and Root Em (`rem`)
