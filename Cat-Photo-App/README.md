@@ -2,6 +2,9 @@
 
 Welcome to the Cat-Photo-App documentation! This guide will help you understand the basics of HTML and provide instructions on building your own cat photo app.
 
+![Cat Photo App](Cat-Photo-App-Design 1.png)
+![Cat Photo App](Cat-Photo-App-Design 2.png)
+
 ## HTML Basics
 
 HTML (Hypertext Markup Language) is the standard language for creating web pages. Here are some essential HTML elements and concepts you need to know:
