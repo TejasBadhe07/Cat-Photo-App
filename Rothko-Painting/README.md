@@ -33,8 +33,8 @@ To achieve a Rothko-esque effect, use the `filter` property to blur the painting
 ```css
 .canvas {
   filter: blur(3px);
-}```
-
+}
+```
 
 ## Softening Edges
 
@@ -43,4 +43,24 @@ Address the issue of sharp edges by increasing the area and softening the edges 
 ```css
 .one {
   box-shadow: 0 0 3px 3px #efb762;
-}```
+}
+```
+
+## Round Corners
+
+To further refine the appearance, round each corner of the element by 9 pixels using the border-radius property. This property can accept up to four values for rounding specific corners:
+
+```css
+.one {
+  border-radius: 9px; /* Applies to all corners */
+}
+```
+
+Adjust the values for specific corners as needed:
+
+```css
+.one {
+  border-radius: 9px 0 0 9px; /* Top-left and bottom-left corners */
+}
+```
+Experiment with different values and combinations to achieve the desired softness in the painting's edges.
