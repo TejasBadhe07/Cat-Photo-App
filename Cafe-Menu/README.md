@@ -61,6 +61,6 @@ Ensure consistent styling on both desktop and mobile with a meta element.
 To center an element horizontally, set margin-left and margin-right properties to auto.
 
 ## Link Styles
-Change properties of a visited link using a pseudo-selector: a:visited { propertyName: propertyValue; }.
-Change properties of a link on hover: a:hover { propertyName: propertyValue; }.
-Change properties of a link when clicked: a:active { propertyName: propertyValue; }.
+- Change properties of a visited link using a pseudo-selector: a:visited { propertyName: propertyValue; }.
+- Change properties of a link on hover: a:hover { propertyName: propertyValue; }.
+- Change properties of a link when clicked: a:active { propertyName: propertyValue; }.
