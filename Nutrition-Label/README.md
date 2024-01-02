@@ -29,3 +29,14 @@ Horizontal spacing between equally important elements can increase the readabili
 
 Wrap the text 2/3 cup (55g) in a span element.
 Now we can add the horizontal spacing using flex. 
+
+The rem unit stands for root em, and is relative to the font size of the html element.      
+
+The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+div:not(#example) {
+  color: red;
+}
+
+The above selects all div elements without an id of example.
+The advantage to creating these dividers is that you can apply specific classes to style them individually.
