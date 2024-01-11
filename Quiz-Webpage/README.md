@@ -54,3 +54,7 @@ overflow: hidden;
 clip: rect(0, 0, 0, 0);
 white-space: nowrap;
 border: 0;
+
+To provide the functionality of the true/false questions, we need a set of inputs which do not allow both to be selected at the same time.
+
+Add an id to all of your radio inputs so you can link your labels to them.
