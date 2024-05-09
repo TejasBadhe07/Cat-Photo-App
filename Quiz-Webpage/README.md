@@ -4,6 +4,8 @@ Accessibility is making your webpage easy for all people to use – even people 
 
 In this part, I'll be building a quiz webpage. Accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
 
+![Quiz Webpage](Quiz-Webpage_1.png) ![Quiz Webpage](Quiz-Webpage_2.png)
+
 a lang attribute to html element. This will assist screen readers in identifying the language of the page
 As familiar with the meta element already; it is used to specify information about the page, such as the title, description, keywords, and author
 
